@@ -1,0 +1,49 @@
+body{
+	margin:0;
+	font-family: Verdana;
+	background-color: rgb(162,183,207);
+	background-image: url("../../img/login/bg.png");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-size: 150px;
+	background-position: bottom;
+}
+#loginPanel{
+	background-color: rgba(122,137,155,1);
+	margin:auto;
+	text-align: center;
+	border-radius: 5px;
+	max-width: 40%;	
+	margin-top: 100px;
+	box-shadow: 5px 10px 40px -10px rgb(0,0,0);
+	color:rgb(255,255,255);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+input{
+	border:none;
+	width:50%; 
+	height:40px;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+input:focus{
+	box-shadow: 2px 2px 30px rgb(0,0,0);
+	transition: 0.5s;
+}
+button{
+	border:none;
+	cursor: pointer;
+	background-color: rgb(255,255,255);
+	width: 25%;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 30px;
+	font-size: 20px;
+	transition: 0.5s;
+}
+button:hover{
+	color: rgb(255,255,255);
+	box-shadow: inset 200px 0px rgb(84,125,172);
+	transition: 0.5s;
+}
